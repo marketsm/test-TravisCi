@@ -13,8 +13,9 @@ pipeline {
 			steps {
 				checkout scm
 				sh 'cp /christophTests/collect* .'
+				sh 'cp /christophTests/*Config.xml .'
 				sh 'chmod u+rx collect*'
-				sh 'ls -la'
+
 			}
 		}
 		stage ('studentsTests'){
