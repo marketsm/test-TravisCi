@@ -1,3 +1,3 @@
 language: java
 
-mvn -B verify cobertura:cobertura -Dmaven.test.failure.ignore -Dmaven.compiler.showDeprecation -Dmaven.compiler.showWarnings
+script: mvn -B verify cobertura:cobertura -Dmaven.test.failure.ignore -Dmaven.compiler.showDeprecation -Dmaven.compiler.showWarnings
