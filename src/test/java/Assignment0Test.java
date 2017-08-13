@@ -16,7 +16,7 @@ public class Assignment0Test extends AbstractTimeoutKaraTest {
                 new String[] {
                         "  .  ",
                         " ... ",
-                        ".....",
+                        ".. ..",
                         " ... ",
                         "  .  ",
                  });
